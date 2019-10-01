@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+#pagina {
+    height: 100vh;
+    width: auto;
+    max-width: 1366px;
+    background: linear-gradient(to right, #050505, #070707);
+    color: white;
+}
+
+#cabecalho {
+    height:70px;
+    font-size: 1.7em;
+    width: inherit;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+#perfil {
+    padding: 5px;
+    border-bottom: 1px solid white;
+}
+#perfil td{
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+#perfil input{
+    border-radius: 3px;
+}
+#perfil input[type="submit"] {
+    background-color: white;
+    color: black;
+}
+#perfil input[type="submit"]:hover {
+    background-color: gray;
+    color: white;
+}
+
+#menu table {
+    position: absolute;
+    top: 105px;
+    left: 39%;
+    width: 300px;
+    cellspacing: 0 25px 10px;
+}
+#menu tr {
+    font-size: 1.5em;
+}
+#menu a{
+    color: white;
+}
+#menu td{
+    border: 1px solid white;
+    padding: 2px 5px;
+    background-color: blue;
+    background: linear-gradient(to right, gray, #8e8d6e);
+    background-repeat: no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.5s 0s;
+}
+#menu td:first-child {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+#menu td:last-child {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px; 
+}
+
+#menu td:hover{
+    background-size: 100% 100%;
+}
+#menu a:hover {
+
+}
+#menu a:active {
+    text-decoration: underline;
+}
+
+#ultimasTransacoes {
+    position:absolute;
+    bottom:50px;
+    left:30px;
+}
+#ultimasTransacoes span{
+    font-size:1.5em;
+    font-weight: bold;
+}
+#ultimasTransacoes table{
+    border-collapse: collapse;
+}
+#ultimasTransacoes td {
+    border:1px solid white;
+    padding:5px 10px;
+}
+
+#rodape {
+    position:absolute;
+    bottom:0;
+    height: 40px;
+    width: 100%;
+    border-top:white solid 1px;
+    text-align: center;
+}
